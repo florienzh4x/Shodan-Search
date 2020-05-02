@@ -1,0 +1,12 @@
+#!/usr/bin/env php
+<?php
+
+use shodan\Shodan;
+define('ROOT', __DIR__);
+require ROOT . '/vendor/autoload.php';
+
+/* Insert Your API Key Here */
+$ApiKey = '';
+
+$bot = new Shodan();
+$bot->run($ApiKey);

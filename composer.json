@@ -1,0 +1,19 @@
+{
+    "name": "florienzh/shodan",
+    "description": "Shodan Search REST API Tool",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Hasanal Bulkiah",
+            "email": "hasanal.bulkiah501@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "shodan\\": "src/"
+        }
+    }
+}
